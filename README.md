@@ -1,11 +1,9 @@
-# DDS
+# IDIG_DIP
 
-[Hyungjin Chung](https://www.hj-chung.com/), Suhyeon Lee, [Jong Chul Ye](https://bispl.weebly.com/professor.html)  
+We are using the pretrained model from **Decomposed Diffusion Sampling (DDS)** https://github.com/HJ-harry/DDS
 
-📢📢 The pre-trained model checkpoints and data are moved to a [new location](https://www.dropbox.com/scl/fo/mlkwofr24nmsnzixj5u4d/AI-JOLUOAzklINnr8FdKpdk?rlkey=p4bj5ny58tngsjd1j46iyoqh6&st=lba2c97z&dl=0).
+The pre-trained model checkpoints and data are moved to a [new location](https://www.dropbox.com/scl/fo/mlkwofr24nmsnzixj5u4d/AI-JOLUOAzklINnr8FdKpdk?rlkey=p4bj5ny58tngsjd1j46iyoqh6&st=lba2c97z&dl=0).
 
-Official PyTorch implementation for **Decomposed Diffusion Sampling (DDS)**, presented in the paper [Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems](https://arxiv.org/abs/2303.05754).
-![concept](./figs/cover.png)
 
 ## Getting Started
 
@@ -34,25 +32,11 @@ By default, the above scripts places the pre-trained model checkpoints under ```
 
 We provide demo scripts for the following inverse problems:
 - Multi-coil MRI reconstruction (2d)
-- Sparse-view CT reconstruction (2d, 3d)
-- Limited-angle CT reconstruction (3d)
+- Sparse-view CT reconstruction (2d)
 
 Each experiments can be run by simply running
 ```
 bash eval_MRI_multi.sh
 bash eval_SVCT_2d.sh
-bash eval_SVCT_3d.sh
-bash eval_LACT_3d.sh
-```
 
-## Citation
-If you find our work interesting, please consider citing
 
-```
-@article{chung2023decomposed,
-  title={Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems},
-  author={Chung, Hyungjin and Lee, Suhyeon and Ye, Jong Chul},
-  journal={arXiv preprint arXiv:2303.05754},
-  year={2023}
-}
-```
