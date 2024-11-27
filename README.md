@@ -1,6 +1,6 @@
 # IDIG_DIP
 
-We are using the pretrained model from **Decomposed Diffusion Sampling (DDS)** https://github.com/HJ-harry/DDS
+We are using the pretrained model from *"Score-based diffusion models for accelerated MRI"
 
 The pre-trained model checkpoints and data are moved to a [new location](https://www.dropbox.com/scl/fo/mlkwofr24nmsnzixj5u4d/AI-JOLUOAzklINnr8FdKpdk?rlkey=p4bj5ny58tngsjd1j46iyoqh6&st=lba2c97z&dl=0).
 
