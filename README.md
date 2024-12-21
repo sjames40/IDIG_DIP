@@ -30,7 +30,7 @@ wget -O './indist_samples/data.zip' 'https://www.dropbox.com/scl/fo/rlxuhs5maial
 # Extract zip file
 unzip -q ./indist_samples/data.zip -d ./indist_samples
 ```
-By default, the above scripts places the pre-trained model checkpoints under ```exp/vp```, and the sample data under ```indist_samples```. When saving to different directories, you can reflect this by modifying the ```--dataset_path``` flag for the ```main.py``` file.
+By default, the above scripts place the pre-trained model checkpoints under ```exp/vp```, and the sample data under ```indist_samples```. When saving to different directories, you can reflect this by modifying the ```--dataset_path``` flag for the ```main.py``` file.
 
 ## uDiG-DIP Reconstruction
 We provide demo scripts for the following inverse problems:
@@ -41,6 +41,7 @@ Each experiment can be run using:
 ```
 bash eval_MRI_multi.sh
 bash eval_SVCT_2d.sh
+```
 
 ## To cite our paper, use the following: 
 @inproceedings{liangicassp25,
