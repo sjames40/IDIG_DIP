@@ -1,11 +1,12 @@
-# uDiG-DIP: Sequential Diffusion-Guided Deep Image Prior For Medical Image Reconstruction 
-
-## ICASSP 2025
+# uDiG-DIP: Sequential Diffusion-Guided Deep Image Prior For Medical Image Reconstruction, ICASSP25
 
 ## Abstract: 
 Deep learning (DL) methods have been extensively applied to various image recovery problems, including magnetic resonance imaging (MRI) and computed tomography (CT) reconstruction. Beyond supervised models, other approaches have been recently explored including two key recent schemes: Deep Image Prior (DIP) that is an unsupervised scan-adaptive method that leverages the network architecture as implicit regularization but can suffer from noise overfitting, and diffusion models (DMs), where the sampling procedure of a pre-trained generative model is modified to allow sampling from the measurement-conditioned distribution through approximations. In this paper, we propose combining DIP and DMs for MRI and CT reconstruction, motivated by (*i*) the impact of the DIP network input and (*ii*) the use of DMs as diffusion purifiers (DPs). Specifically, we propose a sequential procedure that iteratively optimizes the DIP network with a DM-refined adaptive input using a loss with data consistency and autoencoding terms. We term the approach Seq**u**ential **Di**ffusion-**G**uided **DIP** (uDiG-DIP). Our experimental results demonstrate that uDiG-DIP achieves superior reconstruction results compared to leading DM-based baselines and the original DIP for MRI and CT tasks.
-
+## Block Diagram 
 ![Alt text](BD.png)
+
+## Examples 
+![Alt text](examples.png)
 
 ## Getting Started
 
