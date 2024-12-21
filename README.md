@@ -1,4 +1,4 @@
-# IDIG_DIP
+# uDIG_DIP
 
 We are using the pretrained model from *"Score-based diffusion models for accelerated MRI"
 
