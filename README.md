@@ -12,8 +12,8 @@ Deep learning (DL) methods have been extensively applied to various image recove
 
 ### Download pre-trained model weights
 
-We are using the pretrained model from *"Score-based diffusion models for accelerated MRI"*
-The pre-trained model checkpoints and data are (https://www.dropbox.com/scl/fo/mlkwofr24nmsnzixj5u4d/AI-JOLUOAzklINnr8FdKpdk?rlkey=p4bj5ny58tngsjd1j46iyoqh6&st=lba2c97z&dl=0).
+- For MRI, we are using the pretrained model from *"Score-based diffusion models for accelerated MRI"* (https://arxiv.org/abs/2110.05243). 
+- For CT, we are using the pretrained model from *"Improving Diffusion Models for Inverse Problems using Manifold Constraints"* (https://arxiv.org/abs/2206.00941)
 
 ```
 # Download pre-trained model weights
