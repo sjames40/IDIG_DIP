@@ -42,4 +42,12 @@ Each experiment can be run using:
 bash eval_MRI_multi.sh
 bash eval_SVCT_2d.sh
 
+## To cite our paper, use the following: 
+@inproceedings{liangicassp25,
+author    = {Linag, Shijun and Alkhouri, Ismail and Qu, Qing and Wang, Rongrong and Ravishankar, Saiprasad },
+  title     = {Sequential Diffusion-Guided Deep Image Prior For Medical Image Reconstruction},
+  booktitle   = {IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
+  year      = {2025}
+}
+
 
