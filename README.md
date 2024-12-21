@@ -10,7 +10,7 @@ Deep learning (DL) methods have been extensively applied to various image recove
 
 ## Getting Started
 
-### Download pre-trained modei weights
+### Download pre-trained model weights
 
 We are using the pretrained model from *"Score-based diffusion models for accelerated MRI"*
 The pre-trained model checkpoints and data are (https://www.dropbox.com/scl/fo/mlkwofr24nmsnzixj5u4d/AI-JOLUOAzklINnr8FdKpdk?rlkey=p4bj5ny58tngsjd1j46iyoqh6&st=lba2c97z&dl=0).
