@@ -44,6 +44,8 @@ bash eval_SVCT_2d.sh
 ```
 
 ## To cite our paper, use the following: 
+
+```bibtex
 @inproceedings{liangicassp25,
 author    = {Linag, Shijun and Alkhouri, Ismail and Qu, Qing and Wang, Rongrong and Ravishankar, Saiprasad },
   title     = {Sequential Diffusion-Guided Deep Image Prior For Medical Image Reconstruction},
